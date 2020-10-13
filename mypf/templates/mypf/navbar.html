@@ -1,0 +1,43 @@
+{% load static %}
+<nav class="navbar navbar-expand-md navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="{% url 'index' %}">
+            <img src="{% static 'mypf/img/icon.png' %}" width="30" height="30" class="d-inline-block align-top" alt="">
+            <span class="home-brand">Web Programming | Level 4 | F.C.I|Luxor University</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav mx-auto" id="navid">
+                <li class="nav-item" id="nav1">
+                    <a class="nav-link" href="{% url 'index' %}">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item" id="nav2">
+                    <a class="nav-link" href="{% url 'about' %}">About</a>
+                </li>
+                <li class="nav-item" id="nav3">
+                    <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.facebook.com/basam.negm">
+                        <img src="{% static 'mypf/img/fb-logo.png' %}" width="30" height="30" class="d-inline-block align-top" alt="">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://twitter.com/negmIoI">
+                        <img src="{% static 'mypf/img/twitter-logo.png' %}" width="30" height="30" class="d-inline-block align-top" alt="">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/mohamed-negm-584437147/">
+                        <img src="{% static 'mypf/img/linkedin.png' %}" width="30" height="30" class="d-inline-block align-top" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

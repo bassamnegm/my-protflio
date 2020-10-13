@@ -1,0 +1,207 @@
+/*style*/
+
+*{
+  margin: 0;
+  padding:  0;
+  box-sizing: border-box;
+  }
+  body {
+    font-family: Arial,sans-serif;
+    line-height: 1.4;
+    color: #333;
+    overflow-x: hidden;
+  }
+  .container {
+      max-width: 1100px;
+      margin: auto;
+  }
+  .text-primary {
+      color: #3693ff;
+  }
+  .bg-light{
+    background: #f4f4f4;
+    color: #333;
+  }#all{
+    background: #333; ;
+
+  }
+   #navbar {
+     display: flex;
+     justify-content: space-between;
+     background: #333;
+     padding: 1.5rem 8rem;
+     position: sticky;
+     top: 0;
+     z-index: 1;
+     border-bottom: 3px solid #3693ff;
+   }
+   #navbar ul{
+     display: flex;
+     align-items: center;
+     list-style: none;
+   }
+   #navbar h2 a{
+     color: #fff;
+     text-decoration: none;
+   }
+   #navbar li a{
+     text-decoration: none;
+     color: #fff;
+     padding: 1rem;
+     font-size:1.3rem;
+     margin: 0.0rem;
+     border-radius: 5px;
+     transition: background-color .5s;
+   }
+   #navbar li a:hover{
+     background-color:#3693ff;
+   }
+/*show ac */
+#showcase {
+  background: url(../img/desktop.jpg) no-repeat center center/cover;
+height: 91.7vh;
+}
+.showcase-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 81px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0,.6);
+  color: #fff;
+}
+.showcase-content h1{
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+.showcase-content .btn{
+  font-size: 1.5rem;
+  padding: 1rem 10rem;
+  transition: color 0.3s ,background 0.3s
+}
+.showcase-content .btn:hover{
+  background: #3693ff;
+  color: #fff;
+}
+.btn {
+  color: #3693ff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border: 1px solid #3693ff;
+  border-radius: 10px;
+  font-weight: bold;
+}
+#about {
+  padding: 5rem 0;
+}
+#about h2,#skills h2 {
+  text-align: center;
+  font: 3rem;
+  margin-bottom: 3rem;
+  color: white;
+}
+
+#about h3{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+#about p.lead {
+  margin-bottom: 1rem;
+  color: white;
+}
+#about .about-content{
+  display: flex;
+}
+#about .about-text,
+#about .about-image{
+  flex :1;
+}
+#about .about-text{
+  text-align: center;
+}
+#about .about-image img{
+  display: block;
+  margin: auto;
+  width: 35%;
+  border-radius: 40%;
+  margin-top: 60px;
+
+}
+/*skills*/
+#skills {
+  padding: 5rem 0;
+  background: #333;
+}
+#skills h3{
+  text-align: center;
+  margin-bottom: 2rem;
+
+  font-size: 2rem;
+}
+#skills .boxes{
+  display: flex;
+  background: #333;
+}
+#skills .box{
+  background: #fff;
+  flex: 1;
+  padding: 3rem;
+  margin: 0 3rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #d1d1d1;
+  font-size: 1.3rem;
+}
+#skills .box i{
+  color: #fff;
+  padding: 1rem;
+  background: #3693ff;
+  border-radius: 50%;
+  margin: 0 1rem;
+  margin-bottom: 2rem;
+}
+.myskills{
+  width: 500px;
+  margin: 60px auto;
+  color: #3693ff;
+}
+.myskills li{
+  margin: 20px 0;
+}
+.bar{
+
+  display: block;
+  height: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+
+}
+
+.python{
+    width: 90%;
+
+  }
+  .cpp{
+    width: 70%;
+
+  }
+  .java{
+    width: 50%;
+
+  }
+  .htmll{
+    width: 45%;
+
+  }
+  .solve{
+    width: 65%;
+
+  }
